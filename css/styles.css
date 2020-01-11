@@ -1,0 +1,88 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heade */
+header {
+  overflow: hidden;
+ width: 1680px;
+ height: 60px;
+  
+}
+
+header a {
+  float: left;
+  color: #212121;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-top: 21px;
+}
+
+
+
+header a:hover {
+  background-color: #FBC02D;
+  color: #212121;
+}
+
+/* Logo */
+
+header a.logo {
+  
+  font-weight: bold;
+  margin: 14px 70.93px 14px 80px;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+	height: auto;
+}
+
+
+/* navigation */
+nav a:not(:last-child) {
+  margin-right: 40px;
+  
+}
+
+nav {
+  float: left;
+}
+
+
+
+/* button log in, register */
+
+ .register {
+    border: none;
+  display: inline-block;
+  margin-top: 10px;
+    padding: 0px;
+    
+}
+
+  .login-button {
+	background: transparent;
+	border-radius: 50%;
+  border: 0;
+  margin-left: 667px;
+ 
+  }
+  .register-button {
+	background: transparent;
+	border-radius: 50%;
+	border: 0;
+  }
+
+  button:hover {
+	cursor: pointer;
+  }
+
+
