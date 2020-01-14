@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
-</head>
-<body>
-    <header>
-        <a href="#logo" class="logo"><img src="Icon/Sample Logo.png" alt="site-logo" width="123" height="32"></a>
-        <nav>          
-          <a  href="#Features">Features</a>
-          <a href="#Picing">Picing</a>
-          <a href="#Community">Community</a>
-          <a href="#Support">Support</a>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- site navigation -->
+      <nav class="nav-block">
+        <a href="#" class="main-logo">
+          <img
+            src="Icon/Sample Logo.png"
+            alt="site-logo"
+            width="123px"
+            height="32px"
+        /></a>
 
-    </nav>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="Features">Features</a></li>
+          <li class="nav-list-item"><a href="Picing">Picing</a></li>
+          <li class="nav-list-item"><a href="Community">Community</a></li>
+          <li class="nav-list-item"><a href="Support">Support</a></li>
+        </ul>
+      </nav>
 
-    <form class="register">
-
-        <button class="login-button"><img src="Icon/Button log in.png" alt="login"></button>
-        <button class="register-button"><img src="Icon/Button register.png" alt="register"></button>
-        
-    </form>
-      </header>
-
-
-</body>
+      <!-- authorization  -->
+      <form class="register">
+        <button class="login-button">
+          <img src="Icon/Button log in.png" alt="login" />
+        </button>
+        <button class="register-button">
+          <img src="Icon/Button register.png" alt="register" />
+        </button>
+      </form>
+    </header>
+  </body>
 </html>
