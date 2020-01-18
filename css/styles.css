@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+  height: 60px;
+}
+
+header a:hover {
+  background-color: #fbc02d;
+  color: #212121;
+}
+
+/* Logo */
+
+.main-logo {
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  left: 80px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+/* site navigation */
+.nav-list li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-list {
+  position: absolute;
+  top: 21px;
+  left: 273px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #18a0fb;
+}
+
+/* authorization */
+
+.register {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.login-button {
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  left: 1328px;
+  top: 10px;
+}
+
+.register-button {
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 1470px;
+  top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
